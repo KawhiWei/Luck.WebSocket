@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luck.WebSocket.Server", "src\Luck.WebSocket.Server\Luck.WebSocket.Server.csproj", "{D9AF8E1D-DA6A-4EC1-9D75-67605CFACAE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F7D07F1E-B1DC-4ABB-817A-2B77730E93A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Sample", "samples\Server.Sample\Server.Sample.csproj", "{35089225-328D-43FB-AFD3-000110352B39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9AF8E1D-DA6A-4EC1-9D75-67605CFACAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AF8E1D-DA6A-4EC1-9D75-67605CFACAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AF8E1D-DA6A-4EC1-9D75-67605CFACAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AF8E1D-DA6A-4EC1-9D75-67605CFACAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35089225-328D-43FB-AFD3-000110352B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35089225-328D-43FB-AFD3-000110352B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35089225-328D-43FB-AFD3-000110352B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35089225-328D-43FB-AFD3-000110352B39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35089225-328D-43FB-AFD3-000110352B39} = {F7D07F1E-B1DC-4ABB-817A-2B77730E93A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64751017-CF00-4CFD-937E-D94D8CA9AE82}
+	EndGlobalSection
+EndGlobal
